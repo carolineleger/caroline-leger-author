@@ -1,0 +1,145 @@
+$baseURL: "http://icaro-designs.com/images/";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  max-width: 2560px;
+  height: 100%;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 16px;
+  margin: auto;
+}
+
+.main-content {
+  @include size(100%);
+  min-width: 320px;
+  max-width: 1280px;
+  margin: auto;
+  padding: 80px 50px;
+
+  @media screen and (max-width: 500px) {
+    padding: 50px 20px;
+  }
+}
+
+.none {
+  display: none!important;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.left, .right {
+  @media screen and (max-width: 800px) {
+    float: none;
+    clear: both;
+  }
+}
+
+section {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+
+.text-center {
+  text-align: center;
+
+  &.subtitle::after {
+    margin: auto;
+  }
+}
+
+.subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 10px 0 40px;
+  position: relative;
+  width: auto;
+
+  &:after {
+    @include absolute(auto, 0, -6px, 0px);
+    width: 50px;
+    height: 4px;
+    background-color: #222222;
+    content: "";
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $dark-purple;
+
+  &:hover {
+    transition: 0.2s;
+    color: $purple;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  color: $dark-purple;
+  padding: 0px;
+  letter-spacing: 1.5px;
+  font-family: 'RocknRoll One', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+  line-height: 1.2;
+
+  @media screen and (max-width: 1000px) {
+    font-size: 1.8em;
+    line-height: 1;
+  }
+}
+
+h2 {
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 1.8em;
+  margin: 0px;
+  letter-spacing: 1.5px;
+  color: $light-purple;
+  line-height: 1.2em;
+  text-align: left;
+}
+
+.third {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    width: 33.33%;
+    flex-grow: 1;
+    padding: 0 10px;
+    min-width: 350px;
+  }
+}

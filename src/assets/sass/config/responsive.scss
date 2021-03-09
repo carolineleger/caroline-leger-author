@@ -1,0 +1,111 @@
+
+//⦿⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦿
+// RESPONSIVE
+//⦿⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦂⦿
+
+/* Tailles d'�cran */
+
+
+@media  screen and  (min-width: 1700px){
+    body{font-size: 18px!important;}
+    .about-description {padding: 20px 0 150px 0!important; font-size: 1.2em!important; }
+    .animated-text ul {padding-left:125px!important; margin-top: 5px!important}
+}
+
+@media  screen and (max-width: 1200px){
+    .about-container {width: 90%!important}
+    .contenu {width: 100%!important}
+}
+
+@media  screen and (max-width: 900px){
+    .animated-hide {display: none!important}
+    .animated-show {display: block!important}
+    h2{font-size: 2.2em!important;}
+    .about-container td {line-height:1.5em!important}
+    .ban1{ background-size: auto 500px!important;}
+    .footer-container { width: 100%!important;}
+}
+
+@media  screen and(max-width: 800px){
+    h2{font-size: 2em!important;}
+    .about-container td {line-height:1.5em!important; font-size: 0.9em!important;}
+    .couch {width: 200px!important; margin-left: -40px!important;}
+    .bookshelf {width: 65px!important}
+    .plant {width: 100px!important}
+}
+
+@media  screen and (max-width: 700px){
+    .about-container td {width: 100%!important; display:block!important;}
+    .couch-container, .light, .totoro-eyes {left:0!important; right:0!important; margin:auto!important;}
+    .about-CV {position:initial!important;}
+    .about-CV .button{margin:20px auto!important}
+    .about-description {padding-bottom: 280px!important}
+    .about-wrapper .separation {height:40px!important}
+    .portfolio .expander.open { height: 1000px!important;}
+    .item.extended { height: 1000px!important; }
+    .portfolio .full-image { padding: 60px 30px 0!important }
+    .portfolio .full-image img { max-height: 400px!important;}
+    .portfolio .details, .portfolio .full-image { width: 100%!important; float:none!important; height: auto!important}
+}
+
+@media  screen and (max-width: 600px){
+    .ban3{margin-left: -220px!important}
+    .ban4{margin-left: -150px!important}
+    .screen {margin-left: -145px!important; width:83px!important}
+    .animated-text{font-size: 2.5em!important;}
+    .animated-text .text{margin-top:6px!important}
+    .animated-text ul { padding-left: 100px!important}
+    .footer-container{display:none!important}
+    .footer-responsive {display:block!important}
+}
+
+
+@media  screen and (max-width: 500px){
+    .ban3{margin-left: -290px!important;}
+    .ban4{margin-left: -220px!important;margin-top:-5px!important}
+    .screen {margin-left: -165px!important;}
+    .animated-text{font-size: 2.2em!important;}
+    .animated-text .text{margin-top:9px!important}
+    .animated-text ul { padding-left: 90px!important}
+    .animated-text .container { padding: 0 30px!important}
+    .cocci  {width:15px!important}
+    .couch-container, .light, .totoro-eyes {width:380px!important; height: 200px!important}
+    .about-description {padding-bottom: 250px!important}
+    .logo-wrapper { padding: 0!important; }
+    .portfolio .details { line-height: 1.3em!important; text-align: left!important; padding: 15px!important}
+
+}
+
+@media  screen and (max-width: 420px){
+    .ban3{margin-left: -310px!important; min-width: 750px!important}
+    .ban4, .ban1{margin-left: -260px!important; min-width:650px!important}
+    .ban1{margin-left: -200px!important;}
+    .header-wrapper {min-height: 310px!important;}
+    .screen {margin-left: -180px!important;  width:79px!important}
+    .animated-text{font-size: 2em!important;}
+    .animated-text .text{margin-top:11px!important}
+    .animated-text ul { padding-left: 80px!important}
+    .about-container td {padding-left: 15px!important; padding-right: 15px!important}
+    .animated2-hide {display: none!important}
+    .animated2-show {display: block!important}
+    .portfolio-wrapper .portfolio .expander a { padding: 5px 15px!important }
+    h3 { line-height: 1em!important;}
+}
+
+
+
+@media  screen and (max-width: 360px){
+    .ban3{margin-left: -340px!important; min-width: 750px!important}
+    .ban4, .ban1{margin-left: -280px!important; min-width:650px!important}
+    .ban1{margin-left: -200px!important;}
+    .header-wrapper {min-height: 310px!important;}
+    .screen {margin-left: -180px!important;  width:79px!important}
+    .animated-text{font-size: 2em!important;}
+    .animated-text .text{margin-top:11px!important}
+    .animated-text ul { padding-left: 80px!important}
+    .about-container td {padding-left: 15px!important; padding-right: 15px!important}
+    .couch-container, .light, .totoro-eyes {width:320px!important; height: 200px!important}
+    .animated2-hide {display: none!important}
+    .animated2-show {display: block!important}
+    .logo-wrapper .logo { max-width: 130px!important }
+}
