@@ -4,7 +4,7 @@
       <div class="subtitle text-center">Mes histoires</div>
       <div class="third">
         <div class="col">
-          <img src="../../assets/images/echo.png" alt="echo des reves" class="echo"/>
+          <img src="../../assets/images/echo.png" alt="echo des reves" class="echo wow flipInY"/>
         </div>
         <div class="col">
           <h2>L'écho des rêves</h2>

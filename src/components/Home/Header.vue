@@ -3,7 +3,7 @@
    <div class="main-content">
     <div class="left w-50">
       <div class="cover">
-        <img src="../../assets/images/oneiroi.png" alt="exploration et frontieres culturelles"/>
+        <img src="../../assets/images/oneiroi.png" alt="exploration et frontieres culturelles" class="wow slideInUp"/>
       </div>
     </div>
 

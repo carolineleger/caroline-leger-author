@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="right w-50">
-        <img src="../../assets/images/portrait.jpg" alt="portrait" class="portrait"/>
+        <img src="../../assets/images/portrait.jpg" alt="portrait" class="portrait wow slideInDown" data-wow-delay="1s" data-wow-offset="100"/>
       </div>
     </div>
   </section>
