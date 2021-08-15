@@ -13,7 +13,7 @@
             <img src="../../assets/images/star.png" alt="" width="23"/> + <b>4000</b> likes <br/>
             <img src="../../assets/images/medal.png" alt="" width="23"/> Gagnant du concours Chantilly Awards 2019<br/> <br/>
 
-            Duologie disponible à la lecture sur Wattpad <br/>
+            Duologie à lire gratuitement sur Wattpad ! <br/>
 
             <button v-on:click="goToWattpad()">Lire le premier tome</button>
           </p>
@@ -38,7 +38,7 @@ export default {
   name: 'Histoires',
   methods: {
     goToWattpad() {
-      location.href = "https://www.wattpad.com/myworks/92312892-l%27%C3%A9cho-des-r%C3%AAves";
+      window.open("https://www.wattpad.com/story/92312892-l'%C3%A9cho-des-r%C3%AAves", '_blank')
     }
   }
 }

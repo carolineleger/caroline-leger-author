@@ -127,7 +127,7 @@ h2 {
   font-size: 1.8em;
   margin: 0px;
   letter-spacing: 1.5px;
-  color: $light-purple;
+  color: $dark-purple;
   line-height: 1.2em;
   text-align: left;
 }
@@ -139,7 +139,7 @@ h2 {
   .col {
     width: 33.33%;
     flex-grow: 1;
-    padding: 0 10px;
+    padding: 20px;
     min-width: 350px;
   }
 }

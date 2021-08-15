@@ -11,7 +11,7 @@
       <p class="subtitle">À la une</p>
       <h1>Anthologie Steampunk - Exploration et frontières culturelles</h1>
       <p>Publiée aux éditions Oneiroi</p>
-      <button disabled>Bientôt Disponible</button>
+      <button v-on:click="goOneiroi()">Disponible ici !</button>
     </div>
    </div>
 
@@ -22,5 +22,10 @@
 <script>
 export default {
   name: 'Header',
+    methods: {
+    goOneiroi() {
+      window.open("https://editionsoneiroi.fr/vapeur-mecanique/exploration-frontieres-culturelles/", '_blank')
+    }
+  }
 }
 </script>
