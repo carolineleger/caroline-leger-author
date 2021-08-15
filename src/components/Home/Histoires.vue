@@ -9,11 +9,11 @@
         <div class="col">
           <h2>L'écho des rêves</h2>
           <p>
-            <img src="../../assets/images/book.png" alt="" width="23"/> + <b>36 000</b> lectures<br/>
-            <img src="../../assets/images/star.png" alt="" width="23"/> + <b>4000</b> likes <br/>
-            <img src="../../assets/images/medal.png" alt="" width="23"/> Gagnant du concours Chantilly Awards 2019<br/> <br/>
-
-            Duologie à lire gratuitement sur Wattpad ! <br/>
+            <img src="../../assets/images/book.png" alt="" width="23"/> + <b>40 000</b> lectures<br/>
+            <img src="../../assets/images/star.png" alt="" width="23"/> + <b>5000</b> likes <br/>
+            <img src="../../assets/images/medal.png" alt="" width="23"/> Gagnant du concours Chantilly Awards 2019<br/> 
+            <img src="../../assets/images/medal.png" alt="" width="23"/> Gagnant du concours Murmures Littéraires 2021<br/> <br/>
+            Duologie disponible à la lecture sur Wattpad <br/>
 
             <button v-on:click="goToWattpad()">Lire le premier tome</button>
           </p>
