@@ -9,6 +9,7 @@
       <ul>
         <li><a href="#bio">Biographie</a></li>
         <li><a href="#histoires">Mes histoires</a></li>
+        <li><a href="#couvertures">Couvertures</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>

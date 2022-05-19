@@ -9,13 +9,13 @@
         <div class="col">
           <h2>L'écho des rêves</h2>
           <p>
-            <img src="../../assets/images/book.png" alt="" width="23"/> + <b>40 000</b> lectures<br/>
+            <img src="../../assets/images/book.png" alt="" width="23"/> + <b>45 000</b> lectures<br/>
             <img src="../../assets/images/star.png" alt="" width="23"/> + <b>5000</b> likes <br/>
             <img src="../../assets/images/medal.png" alt="" width="23"/> Gagnant du concours Chantilly Awards 2019<br/> 
             <img src="../../assets/images/medal.png" alt="" width="23"/> Gagnant du concours Murmures Littéraires 2021<br/> <br/>
-            Duologie disponible à la lecture sur Wattpad <br/>
+            Sous contrat d'édition, parution prévue pour fin 2022/début 2023 chez les éditions Onyx ! <br/>
 
-            <button v-on:click="goToWattpad()">Lire le premier tome</button>
+            <button v-on:click="goToWattpad()">Lire les premiers chapitres</button>
           </p>
         </div>
         <div class="col">

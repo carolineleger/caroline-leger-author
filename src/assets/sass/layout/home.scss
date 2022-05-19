@@ -133,6 +133,25 @@
     }
   }
 
+  .couvertures {
+    background-color: $beige;
+    padding-bottom: 100px;
+    display: inline-block;
+    border-top: solid 5px #FFFFFF;
+
+    img {
+      max-width: 90%;
+      padding: 20px;
+    }
+
+    @media screen and (max-width: 768px) {
+      padding-bottom: 30px;
+      .right {order: 1};
+      .left{order: 2}
+      img {max-width: 100%}
+    }
+  }
+
   .contact {
     @include size(100%, 120px);
     color: white;

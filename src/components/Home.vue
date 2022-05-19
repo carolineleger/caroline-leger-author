@@ -3,6 +3,7 @@
     <Header />
     <Biographie />
     <Histoires />
+    <Couvertures />
     <Contact />
   </div>
 </template>
@@ -11,6 +12,7 @@
 import Header from './Home/Header.vue'
 import Biographie from './Home/Biographie.vue'
 import Histoires from './Home/Histoires.vue'
+import Couvertures from './Home/Couvertures.vue'
 import Contact from './Contact.vue'
 
 export default {
@@ -19,6 +21,7 @@ export default {
     Header,
     Biographie,
     Histoires,
+    Couvertures,
     Contact
   }
 }
