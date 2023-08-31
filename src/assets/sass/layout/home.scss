@@ -4,7 +4,7 @@
     @include size(100%);
     position: relative;
     display: inline-block;
-    background-image: url('~@/assets/images/wall.jpg');
+    background-image: url("~@/assets/images/wall.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -18,7 +18,7 @@
       img {
         margin-top: 30px;
         width: 100%;
-        max-width: 600px;
+        max-width: 350px;
       }
     }
 
@@ -45,7 +45,7 @@
       z-index: 0;
 
       @media screen and (max-width: 800px) {
-       height: 50%;
+        height: 50%;
       }
 
       @media screen and (max-width: 500px) {
@@ -59,9 +59,11 @@
     background-color: $beige;
     overflow: hidden;
 
-    .left { order: 2 }
+    .left {
+      order: 2;
+    }
 
-    .main-content { 
+    .main-content {
       display: flex;
       flex-wrap: wrap;
       padding-bottom: 0px;
@@ -71,14 +73,15 @@
       }
     }
 
-    &__content, .subtitle {
+    &__content,
+    .subtitle {
       float: right;
       max-width: 500px;
       clear: both;
       width: 100%;
     }
 
-    .right { 
+    .right {
       text-align: center;
       order: 1;
     }
@@ -101,7 +104,7 @@
   }
 
   .histoires {
-    background-image: url('~@/assets/images/echo-bg.jpg');
+    background-image: url("~@/assets/images/echo-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-color: #f2f1eb;
@@ -131,13 +134,25 @@
     button {
       margin-top: 30px;
     }
+
+    // carousel
+    .v-window__controls {
+      padding: 0 5px !important;
+    }
+    .v-carousel__controls {
+      margin-top: 50px;
+
+      button {
+        margin-top: 10px;
+      }
+    }
   }
 
   .couvertures {
     background-color: $beige;
     padding-bottom: 100px;
     display: inline-block;
-    border-top: solid 5px #FFFFFF;
+    border-top: solid 5px #ffffff;
 
     img {
       max-width: 90%;
@@ -146,9 +161,15 @@
 
     @media screen and (max-width: 768px) {
       padding-bottom: 30px;
-      .right {order: 1};
-      .left{order: 2}
-      img {max-width: 100%}
+      .right {
+        order: 1;
+      }
+      .left {
+        order: 2;
+      }
+      img {
+        max-width: 100%;
+      }
     }
   }
 
@@ -159,18 +180,20 @@
     padding: 10px 50px 20px;
     font-size: 13px;
     text-align: center;
-  
+
     img {
       margin-left: 8px;
       width: 25px;
     }
 
     .copyright {
-      font-size: 13px; 
+      font-size: 13px;
       opacity: 0.5;
       margin-top: 10px;
     }
 
-    a { color: white }
+    a {
+      color: white;
+    }
   }
 }

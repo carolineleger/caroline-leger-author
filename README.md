@@ -1,4 +1,4 @@
-# carolineleger
+# author
 
 ## Project setup
 ```

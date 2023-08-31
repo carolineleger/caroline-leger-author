@@ -2,6 +2,7 @@ $baseURL: "http://icaro-designs.com/images/";
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 }
 
 .none {
-  display: none!important;
+  display: none !important;
 }
 
 .left {
@@ -37,7 +38,8 @@ body {
   float: right;
 }
 
-.left, .right {
+.left,
+.right {
   @media screen and (max-width: 800px) {
     float: none;
     clear: both;
@@ -52,7 +54,7 @@ section {
   width: 50%;
 
   @media screen and (max-width: 800px) {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -96,6 +98,10 @@ ul {
   padding-left: 0;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -110,10 +116,10 @@ h1 {
   color: $dark-purple;
   padding: 0px;
   letter-spacing: 1.5px;
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: "RocknRoll One", sans-serif;
   font-weight: bold;
   font-size: 2em;
-  margin: 0;
+  margin: 0 0 10px;
   line-height: 1.2;
 
   @media screen and (max-width: 1000px) {
@@ -123,13 +129,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'RocknRoll One', sans-serif;
+  font-family: "RocknRoll One", sans-serif;
   font-size: 1.8em;
-  margin: 0px;
+  margin: 0 0 10px;
   letter-spacing: 1.5px;
   color: $dark-purple;
   line-height: 1.2em;
   text-align: left;
+}
+
+button {
+  margin-top: 30px;
 }
 
 .third {
