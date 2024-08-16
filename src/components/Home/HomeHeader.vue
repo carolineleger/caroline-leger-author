@@ -4,7 +4,7 @@
       <div class="left w-50">
         <div class="cover">
           <img
-            src="../assets/images/echo.png"
+            src="../../assets/images/echo.png"
             alt="exploration et frontieres culturelles"
             class="wow slideInUp"
           />
@@ -13,9 +13,9 @@
 
       <div class="right w-50">
         <p class="subtitle">À la une</p>
-        <h1>L'Écho des rêves - Tome 1 - La traque des Rêveurs</h1>
-        <p>Publié aux Éditions l'Alchimiste</p>
-        <button v-on:click="goAlchimiste()">Précommande ici !</button>
+        <h1>L'Écho des rêves - Quadrilogie de fantasy</h1>
+        <p>Publiée aux Éditions l'Alchimiste</p>
+        <button v-on:click="goAlchimiste()">Commande ici !</button>
       </div>
     </div>
 

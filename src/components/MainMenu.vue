@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <div class="logo left">
-      Caroline Léger
+      <a href="/">Caroline Léger</a>
       <br />
       <span>Autrice de l'imaginaire</span>
     </div>

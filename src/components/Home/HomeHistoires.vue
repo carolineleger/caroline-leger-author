@@ -15,7 +15,7 @@
           <div class="third">
             <div class="col">
               <img
-                src="../assets/images/echo.png"
+                src="../../assets/images/echo.png"
                 alt="echo des reves"
                 class="echo wow flipInY"
               />
@@ -23,19 +23,19 @@
             <div class="col">
               <h2>L'écho des rêves</h2>
               <p>
-                <img src="../assets/images/book.png" alt="" width="23" /> +
+                <img src="../../assets/images/book.png" alt="" width="23" /> +
                 <b>50 000</b> lectures<br />
-                <img src="../assets/images/star.png" alt="" width="23" /> +
+                <img src="../../assets/images/star.png" alt="" width="23" /> +
                 <b>5000</b> likes <br />
-                <img src="../assets/images/medal.png" alt="" width="23" />
+                <img src="../../assets/images/medal.png" alt="" width="23" />
                 Gagnant du concours Chantilly Awards 2019<br />
-                <img src="../assets/images/medal.png" alt="" width="23" />
+                <img src="../../assets/images/medal.png" alt="" width="23" />
                 Gagnant du concours Murmures Littéraires 2021<br />
                 <br />
-                Sous contrat d'édition, parution prévue pour le 5 décembre 2023
-                aux éditions l'Alchimiste ! <br />
+                Saga en 4 tomes en cours de publication aux éditions
+                l'Alchimiste ! <br />
 
-                <button v-on:click="goAlchimiste()">Précommande ici !</button>
+                <button v-on:click="goAlchimiste()">Commande ici !</button>
               </p>
             </div>
             <div class="col">
@@ -58,11 +58,7 @@
                 besoins d’une enquête. Un membre éminent des Mnésiques, un autre
                 clan proche du pouvoir, et membre de l’élite du pays, est mort
                 dans des conditions mystérieuses. Et tout semble indiquer
-                l’implication d’un Rêveur.
-              </p>
-              <p>
-                Sa famille est-elle soupçonnée de complicité de meurtre ? Car
-                très rapidement, tout dérape…
+                l’implication d’un Rêveur...
               </p>
             </div>
           </div>
@@ -73,7 +69,7 @@
           <div class="third">
             <div class="col">
               <img
-                src="../assets/images/oneiroi.png"
+                src="../../assets/images/oneiroi.png"
                 alt="oneiroi"
                 class="oneroi wow flipInY"
               />
@@ -117,6 +113,12 @@
 function goOneiroi() {
   window.open(
     "https://editionsoneiroi.fr/produit/exploration-et-frontieres-culturelles/",
+    "_blank"
+  );
+}
+function goAlchimiste() {
+  window.open(
+    "https://editionslalchimiste.com/produit/lecho-des-reves-tome-1-la-traque-des-reveurs/",
     "_blank"
   );
 }

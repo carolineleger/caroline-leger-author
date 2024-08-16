@@ -18,7 +18,7 @@
       img {
         margin-top: 30px;
         width: 100%;
-        max-width: 350px;
+        max-width: 450px;
       }
     }
 
@@ -109,17 +109,18 @@
     background-size: 100% auto;
     background-color: #f2f1eb;
     background-position: top center;
+    min-height: 700px;
 
     .main-content {
       padding-top: 20px;
     }
 
     .echo {
-      max-width: 320px;
+      max-width: 350px;
     }
 
     .col:nth-of-type(1) {
-      max-width: 320px;
+      max-width: 350px;
     }
 
     .col:nth-of-type(3) {
@@ -131,10 +132,6 @@
       }
     }
 
-    button {
-      margin-top: 30px;
-    }
-
     // carousel
     .v-window__controls {
       padding: 0 5px !important;
@@ -144,6 +141,11 @@
 
       button {
         margin-top: 10px;
+        background-color: transparent !important;
+
+        i {
+          color: $dark-purple;
+        }
       }
     }
   }
@@ -170,30 +172,6 @@
       img {
         max-width: 100%;
       }
-    }
-  }
-
-  .contact {
-    @include size(100%, 120px);
-    color: white;
-    background-color: $dark-purple;
-    padding: 10px 50px 20px;
-    font-size: 13px;
-    text-align: center;
-
-    img {
-      margin-left: 8px;
-      width: 25px;
-    }
-
-    .copyright {
-      font-size: 13px;
-      opacity: 0.5;
-      margin-top: 10px;
-    }
-
-    a {
-      color: white;
     }
   }
 }

@@ -1,7 +1,6 @@
-
 button {
-  background-color: $dark-purple;
-  color: white;
+  background-color: $dark-purple !important;
+  color: white !important;
   border: 0;
   padding: 10px 25px;
   text-align: center;
@@ -16,6 +15,6 @@ button {
 
   &:hover {
     transition: 0.2s;
-    background-color: $purple;
+    background-color: $purple !important;
   }
 }

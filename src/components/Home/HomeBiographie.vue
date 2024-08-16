@@ -19,7 +19,7 @@
       </div>
       <div class="right w-50">
         <img
-          src="../assets/images/portrait.jpg"
+          src="../../assets/images/portrait.jpg"
           alt="portrait"
           class="portrait wow slideInDown"
           data-wow-delay="1s"
@@ -28,7 +28,7 @@
       </div>
     </div>
     <img
-      src="../assets/images/bottom-portfolio.jpg"
+      src="../../assets/images/bottom-portfolio.jpg"
       alt=""
       class="bottom-wave"
     />

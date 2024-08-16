@@ -15,13 +15,15 @@
           n'hésitez pas à me contacter directement!
         </p>
 
+        <button v-on:click="goToPortfolio()">Voir mon portfolio</button>&nbsp;
+
         <button v-on:click="goToBookDesigner()">
           Voir les couvertures disponibles
         </button>
       </div>
       <div class="right w-50">
         <img
-          src="../assets/images/covers.jpg"
+          src="../../assets/images/covers.jpg"
           alt="couvertures"
           class="wow zoomIn"
         />
@@ -33,5 +35,8 @@
 <script setup>
 function goToBookDesigner() {
   window.open("https://thebookcoverdesigner.com/designers/elyon/", "_blank");
+}
+function goToPortfolio() {
+  window.open("/portfolio", "_self");
 }
 </script>
