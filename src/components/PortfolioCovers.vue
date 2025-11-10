@@ -1,6 +1,10 @@
 <template>
   <div class="main-content">
     <h1 class="mb-6">Below are some examples of covers I've designed</h1>
+    <p>
+      Known as Elyon, I'm also a book cover designer! You can buy some premade
+      or <a href="mailto:linoal4e@hotmail.com">contact me</a> for custom ones.
+    </p>
     <MasonryGrid class="portfolio" :gap="gap" :align="align">
       <div v-for="(item, index) in portfolioItems" :key="index" class="item">
         <img
@@ -33,7 +37,7 @@ export default {
   },
   mounted() {
     this.portfolioItems = Array.from(
-      { length: 57 },
+      { length: 60 },
       (_, i) => `@/assets/images/portfolio/book (${i + 1}).jpg`
     );
   },
