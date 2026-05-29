@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "eslint ."
   },
   "dependencies": {
     "@egjs/vue-grid": "^1.15.0",
@@ -26,23 +26,10 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-service": "~5.0.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.27.0",
-    "globals": "^15.9.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    "eslint": "^9.39.4",
+    "eslint-plugin-vue": "^10.9.1",
+    "globals": "^15.9.0",
+    "vue-eslint-parser": "^10.4.0"
   },
   "browserslist": [
     "> 1%",

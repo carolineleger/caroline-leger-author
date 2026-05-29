@@ -5,7 +5,7 @@
         <div class="cover">
           <img
             src="../../assets/images/echo.png"
-            alt="exploration et frontieres culturelles"
+            alt="L'Écho des rêves - couverture"
             class="wow slideInUp"
           />
         </div>

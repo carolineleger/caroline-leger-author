@@ -1,0 +1,54 @@
+[
+  {
+    "id": "eros-macabre",
+    "title": "Eros macabre",
+    "linkLabel": "Commandez ici !",
+    "linkUrl": "https://www.babelio.com/livres/Stankiewiez-Eros-Macabre/2000535",
+    "image": "eros.webp",
+    "imageAlt": "Les entrailles de la Terre",
+    "imageClass": "eros wow flipInY",
+    "imageWidth": "250",
+    "description": "Ma nouvelle « Les entrailles de la Terre » a l'honneur d'ouvrir ce recueil ! Elle vous emmènera dans une expédition spéléologique dont vous ne reviendrez peut-être pas...",
+    "summary": [
+      "Exprimer un désir, un érotisme féminin et queer, voilà bien la réelle transgression, encore aujourd'hui. Celle qui a valu le gynécide des chasses aux sorcières, lorsqu'on accusait les jeunes filles comme les vieilles femmes de copuler avec le diable et les démons. L'objet de cette anthologie est de donner une place aux désirs les plus transgressifs. Vous y trouverez des textes incarnés, troublants, gênants, glaçants, terrifiants, marginaux et dangereux. Des textes qui nous auraient valu le bûcher ou le pogrom. Des cris chtoniens, des appels à la subversion, des révolutions. Cannibalisme, omophagie, vampirisme, sacrifices, nécrophilie, androcides, chimères, interdits sociaux et religieux... il n'y a pas de limites autres que la qualité littéraire et narrative."
+    ]
+  },
+  {
+    "id": "echo-des-reves",
+    "title": "L'écho des rêves",
+    "image": "echo.png",
+    "imageAlt": "echo des reves",
+    "imageClass": "echo wow flipInY",
+    "stats": [
+      { "icon": "book", "html": "+ <b>50 000</b> lectures" },
+      { "icon": "star", "html": "+ <b>5000</b> likes" },
+      { "icon": "medal", "html": "Gagnant du concours Chantilly Awards 2019" },
+      {
+        "icon": "medal",
+        "html": "Gagnant du concours Murmures Littéraires 2021"
+      }
+    ],
+    "description": "Saga en 4 tomes en cours de publication aux éditions l'Alchimiste !",
+    "linkLabel": "Commandez ici !",
+    "linkUrl": "https://editionslalchimiste.com/produit/lecho-des-reves-tome-1-la-traque-des-reveurs/",
+    "summary": [
+      "Rayane fait partie des Rêveurs, un clan dont les membres ont le pouvoir d'épier les songes d'autrui.",
+      "Alors que son statut et son éducation la destinaient à une carrière prestigieuse, mais soumise à de nombreuses contraintes, elle décide de renier son héritage pour rejoindre une compagnie de cirque itinérante dont elle devient l'une des acrobates.",
+      "Huit ans plus tard, elle reçoit la visite inattendue de sa sœur Ester qui lui intime de rentrer au domaine familial pour les besoins d'une enquête. Un membre éminent des Mnésiques, un autre clan proche du pouvoir, et membre de l'élite du pays, est mort dans des conditions mystérieuses. Et tout semble indiquer l'implication d'un Rêveur..."
+    ]
+  },
+  {
+    "id": "oneiroi",
+    "title": "Exploration et frontières culturelles – Anthologie steampunk vol. 3",
+    "image": "oneiroi.png",
+    "imageAlt": "oneiroi",
+    "imageClass": "oneroi wow flipInY",
+    "description": "Une nouvelle steampunk qui vous plongera dans l'univers de livres cultes, aux côtés d'une apprentie chapelière. Anthologie parue aux éditions Oneiroi",
+    "linkLabel": "Achetez ici !",
+    "linkUrl": "https://editionsoneiroi.fr/produit/exploration-et-frontieres-culturelles/",
+    "summary": [
+      "Le steampunk vous invite à explorer les origines de notre société en déambulant dans des passés alternatifs. Avec cette anthologie, vous voyagerez aux quatre coins du monde : les barrières entre les êtres ne sont pas toujours là où on les attend. Traditions, religions, langage, mœurs… Les frontières qui séparent les humains sont multiples et trompeuses. Et si la plus grande de toutes n'était autre que le temps ?",
+      "Pour le meilleur ou pour le pire, ou juste différemment. Prenez place dans notre machine à remonter le temps !"
+    ]
+  }
+]

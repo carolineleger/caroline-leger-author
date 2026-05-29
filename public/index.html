@@ -1,27 +1,86 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
-  <meta name="description"
-    content="Caroline Léger, autrice de romans de l'imaginaire. Publiée chez l'Alchimiste et Oneiroi" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+
+  <!-- Primary meta -->
+  <title>Caroline Léger - Autrice de l'imaginaire</title>
+  <meta name="description"
+    content="Caroline Léger, autrice de romans de l'imaginaire. Découvrez sa saga fantasy L'Écho des rêves, publiée chez l'Alchimiste et Oneiroi." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://autrice.carolineleger.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://autrice.carolineleger.com/" />
+  <meta property="og:site_name" content="Caroline Léger - Autrice" />
+  <meta property="og:locale" content="fr_FR" />
+  <meta property="og:title" content="Caroline Léger - Autrice de l'imaginaire" />
+  <meta property="og:description" content="Caroline Léger, autrice de romans de l'imaginaire. Découvrez sa saga fantasy L'Écho des rêves, publiée chez l'Alchimiste et Oneiroi." />
+  <meta property="og:image" content="https://autrice.carolineleger.com/og-image.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Caroline Léger - Autrice de l'imaginaire" />
+  <meta name="twitter:description" content="Caroline Léger, autrice de romans de l'imaginaire. Découvrez sa saga fantasy L'Écho des rêves, publiée chez l'Alchimiste et Oneiroi." />
+  <meta name="twitter:image" content="https://autrice.carolineleger.com/og-image.png" />
+
+  <!-- Favicon -->
   <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+
   <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css' />
-  <link href='http://fonts.googleapis.com/css?family=Raleway:400,800,700,600' rel='stylesheet' type='text/css' />
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700' rel='stylesheet' type='text/css' />
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,800,700,600' rel='stylesheet' type='text/css' />
   <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
 
-  <!-- Css -->
+  <!-- CSS -->
   <link rel="stylesheet" href="css/animate.css">
-  <title>Caroline Léger - autrice </title>
+
+  <!-- Structured data: Author -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Caroline Léger",
+    "jobTitle": "Autrice",
+    "description": "Autrice de romans de l'imaginaire, publiée chez l'Alchimiste et Oneiroi",
+    "url": "https://autrice.carolineleger.com",
+    "sameAs": [
+      "https://www.instagram.com/1livre1image/"
+    ]
+  }
+  </script>
+
+  <!-- Structured data: Book -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "L'Écho des rêves",
+    "author": {
+      "@type": "Person",
+      "name": "Caroline Léger"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Éditions l'Alchimiste"
+    },
+    "genre": "Fantasy",
+    "inLanguage": "fr",
+    "award": "Prix Chantilly 2019, Prix Murmures Littéraires 2021",
+    "url": "https://editionslalchimiste.com/produit/lecho-des-reves-tome-1-la-traque-des-reveurs/"
+  }
+  </script>
 </head>
 
 <body>
   <noscript>
-    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
+    <strong>Désolé, <%= htmlWebpackPlugin.options.title %> ne fonctionne pas correctement sans JavaScript. Veuillez l'activer pour continuer.</strong>
   </noscript>
   <div id="app"></div>
   <!-- built files will be auto injected -->
