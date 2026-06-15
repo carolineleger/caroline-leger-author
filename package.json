@@ -12,7 +12,7 @@
     "@fortawesome/fontawesome-free": "^6.6.0",
     "@mdi/font": "^7.4.47",
     "core-js": "^3.8.3",
-    "sass": "^1.77.8",
+    "sass": "^1.101.0",
     "sass-loader": "^14.2.1",
     "vue": "^3.4.37",
     "vue-router": "^4.3.2",
