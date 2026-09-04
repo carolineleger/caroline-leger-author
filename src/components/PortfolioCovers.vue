@@ -7,11 +7,7 @@
     </p>
     <MasonryGrid class="portfolio" :gap="gap" :align="align">
       <div v-for="(item, index) in portfolioItems" :key="index" class="item">
-        <img
-          :src="require(`@/assets/images/portfolio/book (${index + 1}).jpg`)"
-          alt="Portfolio Item"
-          loading="lazy"
-        />
+        <img :src="item" alt="Portfolio Item" loading="lazy" />
       </div>
     </MasonryGrid>
     <div class="text-center">
@@ -22,24 +18,31 @@
 </template>
 
 <script>
-import { MasonryGrid } from "@egjs/vue-grid";
+import MasonryGrid from "@/components/MasonryGrid.vue";
+
+const covers = require.context(
+  "@/assets/images/portfolio",
+  false,
+  /^\.\/book \(\d+\)\.jpg$/
+);
+
+const coverNumber = (key) => Number(key.match(/\((\d+)\)/)[1]);
+
+const portfolioItems = covers
+  .keys()
+  .sort((a, b) => coverNumber(a) - coverNumber(b))
+  .map((key) => covers(key));
 
 export default {
   data() {
     return {
       gap: 5,
       align: "justify",
-      portfolioItems: [],
+      portfolioItems,
     };
   },
   components: {
     MasonryGrid,
-  },
-  mounted() {
-    this.portfolioItems = Array.from(
-      { length: 60 },
-      (_, i) => `@/assets/images/portfolio/book (${i + 1}).jpg`
-    );
   },
   methods: {
     redirectToContact() {
@@ -57,10 +60,13 @@ export default {
 </script>
 
 <style scoped>
+/* The grid absolutely positions the items and sets the container height
+   inline, so the height must not be constrained here. .main-content is a
+   flex container, so claim the full row width explicitly - otherwise this
+   shrink-to-fits to 0 once the items leave the normal flow. */
 .portfolio {
-  display: flex;
-  flex-wrap: wrap;
-  height: 100% !important;
+  position: relative;
+  width: 100%;
 }
 
 .item {
